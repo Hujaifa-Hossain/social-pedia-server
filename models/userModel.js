@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema(
 			required: true,
 			min: 6,
 		},
-		picturePath: {
+		picture: {
 			type: String,
 			default: '',
 		},
